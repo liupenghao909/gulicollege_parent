@@ -1,16 +1,14 @@
 package com.ant.eduService.controller;
 
 import com.ant.commonutils.R;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.HashMap;
 import java.util.Map;
 
 @RestController
 @RequestMapping("/eduService/user")
+@CrossOrigin
 public class EduLoginController {
     // 登陆功能
     @PostMapping("/login")

@@ -23,7 +23,7 @@ public class R {
     private String message;
 
     @ApiModelProperty(value = "返回数据，放在键值对中")
-    private Map<String,Object> date = new HashMap<>();
+    private Map<String,Object> data = new HashMap<>();
 
     // 把构造方法私有化
     private R(){
@@ -67,12 +67,12 @@ public class R {
     }
 
     public R data(String key,Object value){
-        this.date.put(key,value);
+        this.data.put(key,value);
         return this;
     }
 
     public R data(Map<String,Object> map){
-        this.setDate(map);
+        this.setData(map);
         return this;
     }
 

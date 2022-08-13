@@ -14,6 +14,8 @@ import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;
 import org.apache.commons.lang3.StringUtils;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -29,7 +31,9 @@ import java.util.List;
 @Api(value = "讲师管理")
 @RestController
 @RequestMapping("/eduService/teacher")
+@CrossOrigin
 public class EduController {
+    private final Logger log = LoggerFactory.getLogger(EduController.class);
 
     private final EduTeacherService eduTeacherService;
 
@@ -42,6 +46,8 @@ public class EduController {
     @GetMapping("/findAllTeacher")
     @ApiOperation(value = "所有讲师列表")
     public R findAllTeacher(){
+        log.info("Rest to get all teachers");
+
         List<EduTeacher> list = eduTeacherService.list(null);
         return R.ok().data("items",list);
     }
@@ -49,6 +55,8 @@ public class EduController {
     @DeleteMapping("/delete/{id}")
     @ApiOperation(value = "根据ID删除讲师")
     public R removeTeacher(@ApiParam(name = "id",value = "讲师ID",required = true) @PathVariable String id){
+        log.info("Rest to delete teacher by id");
+
         boolean b = eduTeacherService.removeById(id);
         if(b==true){
             return R.ok();
@@ -63,6 +71,8 @@ public class EduController {
     @ApiOperation(value = "分页查询讲师")
     public R pageListTeacher(@ApiParam(value = "当前页")@PathVariable(value = "current") Long current,
                              @ApiParam(value = "每页记录数")@PathVariable(value = "limit") Long limit){
+        log.info("Rest to search teachers in page");
+
         // 创建Page对象
         Page<EduTeacher> page = new Page<>(current,limit);
         // 调用方法实现分页
@@ -82,6 +92,7 @@ public class EduController {
                                   @PathVariable("limit") Long limit,
                                   // 请求体
                                   @RequestBody(required = false) TeacherQuery teacherQuery){
+        log.info("Rest to get teacher page with condition");
         // 创建page对象
         Page<EduTeacher> page = new Page<>(current,limit);
         QueryWrapper<EduTeacher> wrapper = new QueryWrapper<>();
@@ -106,6 +117,8 @@ public class EduController {
             wrapper.le("gmt_create",end);
         }
 
+        wrapper.orderByDesc("gmt_create");
+
         // 多条件组合查询
         eduTeacherService.page(page,wrapper);
         // 调用方法实现条件查询分页
@@ -116,6 +129,8 @@ public class EduController {
     @ApiOperation(value = "添加讲师")
     @PostMapping("/addTeacher")
     public R addTeacher(@RequestBody EduTeacher eduTeacher){
+        log.info("Rest to add teacher");
+
         boolean save = eduTeacherService.save(eduTeacher);
         if(save){
             return R.ok();
@@ -125,13 +140,9 @@ public class EduController {
     }
 
     // 根据id值查询讲师信息
-    @GetMapping("getTeacher/{id}")
+    @GetMapping("/getTeacher/{id}")
     public R getTeacherById(@ApiParam("讲师id值") @PathVariable("id") String id){
-        try{
-            int i = 10/0;
-        }catch (Exception e){
-            throw new GuliException(20002,"执行了自定义异常处理......");
-        }
+        log.info("Rest to get teacher by id");
         EduTeacher teacher = eduTeacherService.getById(id);
         return R.ok().data("item",teacher);
     }
@@ -139,6 +150,7 @@ public class EduController {
     // 修改讲师
     @PostMapping("updateTeacher")
     public R updateTeacherById(@RequestBody EduTeacher eduTeacher){
+        log.info("Rest to update teacher by id");
         boolean b = eduTeacherService.updateById(eduTeacher);
         if(b){
             return R.ok();

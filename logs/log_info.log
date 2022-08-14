@@ -1,0 +1,214 @@
+2022-08-13 15:21:28.507 [http-nio-8001-exec-7] INFO  com.ant.eduService.controller.EduLoginController - Rest to get user information when login
+2022-08-13 15:22:13.165 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-08-13 15:22:13.171 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-08-13 15:22:13.194 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-08-13 15:22:20.828 [main] INFO  com.ant.eduService.EduApplication - Starting EduApplication on 192.168.0.105 with PID 88398 (/Users/Penghao/IdeaProjects/gulicollege_parent/service/service_edu/target/classes started by Penghao in /Users/Penghao/IdeaProjects/gulicollege_parent)
+2022-08-13 15:22:20.834 [main] INFO  com.ant.eduService.EduApplication - The following profiles are active: dev
+2022-08-13 15:22:21.855 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-08-13 15:22:21.858 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2022-08-13 15:22:21.885 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15ms. Found 0 repository interfaces.
+2022-08-13 15:22:22.198 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-13 15:22:22.427 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2022-08-13 15:22:22.434 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2022-08-13 15:22:22.434 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-08-13 15:22:22.434 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2022-08-13 15:22:22.511 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-08-13 15:22:22.513 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1633 ms
+2022-08-13 15:22:22.725 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-08-13 15:22:23.031 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-08-13 15:22:23.859 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-08-13 15:22:24.018 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-08-13 15:22:24.554 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-08-13 15:22:24.570 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-08-13 15:22:24.604 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-08-13 15:22:24.895 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2022-08-13 15:22:24.925 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2022-08-13 15:22:24.929 [main] INFO  com.ant.eduService.EduApplication - Started EduApplication in 4.97 seconds (JVM running for 5.738)
+2022-08-13 15:23:27.423 [http-nio-8001-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-13 15:23:27.426 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-08-13 15:23:27.462 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 36 ms
+2022-08-13 15:23:27.534 [http-nio-8001-exec-1] INFO  com.ant.eduService.controller.EduLoginController - Rest to get user information when login
+2022-08-13 15:26:59.166 [http-nio-8001-exec-5] INFO  com.ant.eduService.controller.EduLoginController - Rest to get user information when login
+2022-08-13 16:04:49.077 [http-nio-8001-exec-3] INFO  com.ant.eduService.controller.EduLoginController - Rest to get user information when login
+2022-08-13 16:14:16.984 [http-nio-8001-exec-7] INFO  com.ant.eduService.controller.EduLoginController - Rest to get user information when login
+2022-08-13 16:32:23.381 [http-nio-8001-exec-1] INFO  com.ant.eduService.controller.EduLoginController - Rest to get user information when login
+2022-08-13 16:32:50.438 [http-nio-8001-exec-3] INFO  com.ant.eduService.controller.EduLoginController - Rest to get user information when login
+2022-08-13 16:49:09.972 [http-nio-8001-exec-7] INFO  com.ant.eduService.controller.EduLoginController - Rest to get user information when login
+2022-08-13 16:55:12.081 [http-nio-8001-exec-7] INFO  com.ant.eduService.controller.EduLoginController - Rest to get user information when login
+2022-08-13 17:08:43.439 [http-nio-8001-exec-7] INFO  com.ant.eduService.controller.EduLoginController - Rest to get user information when login
+2022-08-13 17:18:17.259 [http-nio-8001-exec-10] INFO  com.ant.eduService.controller.EduLoginController - Rest to get user information when login
+2022-08-13 18:00:25.795 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-08-13 18:00:25.799 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-08-13 18:00:25.821 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-08-13 18:01:01.844 [main] INFO  com.ant.eduService.EduApplication - Starting EduApplication on 192.168.0.105 with PID 89949 (/Users/Penghao/IdeaProjects/gulicollege_parent/service/service_edu/target/classes started by Penghao in /Users/Penghao/IdeaProjects/gulicollege_parent)
+2022-08-13 18:01:01.852 [main] INFO  com.ant.eduService.EduApplication - The following profiles are active: dev
+2022-08-13 18:01:03.636 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-08-13 18:01:03.646 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2022-08-13 18:01:03.696 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 26ms. Found 0 repository interfaces.
+2022-08-13 18:01:04.008 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-13 18:01:04.243 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2022-08-13 18:01:04.249 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2022-08-13 18:01:04.250 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-08-13 18:01:04.250 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2022-08-13 18:01:04.323 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-08-13 18:01:04.325 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2171 ms
+2022-08-13 18:01:04.518 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-08-13 18:01:04.839 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-08-13 18:01:05.380 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-08-13 18:01:05.496 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-08-13 18:01:05.996 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-08-13 18:01:06.007 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-08-13 18:01:06.033 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-08-13 18:01:06.285 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2022-08-13 18:01:06.329 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2022-08-13 18:01:06.335 [main] INFO  com.ant.eduService.EduApplication - Started EduApplication in 6.45 seconds (JVM running for 7.2)
+2022-08-13 18:01:09.865 [http-nio-8001-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-13 18:01:09.866 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-08-13 18:01:09.892 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 26 ms
+2022-08-13 18:01:09.964 [http-nio-8001-exec-1] INFO  com.ant.eduService.controller.EduLoginController - Rest to get user information when login
+2022-08-13 18:01:28.346 [http-nio-8001-exec-2] INFO  com.ant.eduService.controller.EduLoginController - Rest to get user information when login
+2022-08-13 18:02:37.975 [http-nio-8001-exec-4] INFO  com.ant.eduService.controller.EduLoginController - Rest to get user information when login
+2022-08-13 18:06:09.247 [http-nio-8001-exec-6] INFO  com.ant.eduService.controller.EduLoginController - Rest to get user information when login
+2022-08-13 18:06:45.133 [http-nio-8001-exec-7] INFO  com.ant.eduService.controller.EduLoginController - Rest to get user information when login
+2022-08-13 18:07:06.004 [http-nio-8001-exec-8] INFO  com.ant.eduService.controller.EduLoginController - Rest to get user information when login
+2022-08-13 18:07:06.100 [http-nio-8001-exec-9] INFO  com.ant.eduService.controller.EduLoginController - Rest to get user information when login
+2022-08-13 18:07:06.124 [http-nio-8001-exec-10] INFO  com.ant.eduService.controller.EduLoginController - Rest to get user information when login
+2022-08-13 18:07:06.132 [http-nio-8001-exec-1] INFO  com.ant.eduService.controller.EduLoginController - Rest to get user information when login
+2022-08-13 18:07:06.139 [http-nio-8001-exec-2] INFO  com.ant.eduService.controller.EduLoginController - Rest to get user information when login
+2022-08-13 18:07:06.145 [http-nio-8001-exec-3] INFO  com.ant.eduService.controller.EduLoginController - Rest to get user information when login
+2022-08-13 18:07:06.342 [http-nio-8001-exec-7] INFO  com.ant.eduService.controller.EduLoginController - Rest to get user information when login
+2022-08-13 18:11:11.878 [http-nio-8001-exec-2] INFO  com.ant.eduService.controller.EduLoginController - Rest to get user information when login
+2022-08-13 18:13:11.247 [http-nio-8001-exec-4] INFO  com.ant.eduService.controller.EduLoginController - Rest to get user information when login
+2022-08-13 18:16:39.737 [http-nio-8001-exec-1] INFO  com.ant.eduService.controller.EduLoginController - Rest to get user information when login
+2022-08-13 18:19:04.310 [http-nio-8001-exec-10] INFO  com.ant.eduService.controller.EduLoginController - Rest to get user information when login
+2022-08-13 18:19:49.316 [http-nio-8001-exec-8] INFO  com.ant.eduService.controller.EduLoginController - Rest to get user information when login
+2022-08-13 18:21:25.617 [http-nio-8001-exec-7] INFO  com.ant.eduService.controller.EduLoginController - Rest to get user information when login
+2022-08-13 18:23:26.384 [http-nio-8001-exec-5] INFO  com.ant.eduService.controller.EduLoginController - Rest to get user information when login
+2022-08-13 18:54:45.226 [http-nio-8001-exec-2] INFO  com.ant.eduService.controller.EduLoginController - Rest to get user information when login
+2022-08-13 18:54:45.237 [http-nio-8001-exec-7] INFO  com.ant.eduService.controller.EduLoginController - Rest to get user information when login
+2022-08-13 18:57:39.468 [http-nio-8001-exec-1] INFO  com.ant.eduService.controller.EduLoginController - Rest to get user information when login
+2022-08-13 18:57:39.477 [http-nio-8001-exec-9] INFO  com.ant.eduService.controller.EduLoginController - Rest to get user information when login
+2022-08-13 21:25:13.644 [http-nio-8001-exec-7] INFO  com.ant.eduService.controller.EduLoginController - Rest to get user information when login
+2022-08-13 21:31:12.170 [http-nio-8001-exec-1] INFO  com.ant.eduService.controller.EduLoginController - Rest to get user information when login
+2022-08-13 21:35:05.545 [http-nio-8001-exec-2] INFO  com.ant.eduService.controller.EduLoginController - Rest to get user information when login
+2022-08-13 21:38:09.892 [http-nio-8001-exec-6] INFO  com.ant.eduService.controller.EduLoginController - Rest to get user information when login
+2022-08-13 21:38:09.918 [http-nio-8001-exec-1] INFO  com.ant.eduService.controller.EduLoginController - Rest to get user information when login
+2022-08-13 21:38:09.924 [http-nio-8001-exec-9] INFO  com.ant.eduService.controller.EduLoginController - Rest to get user information when login
+2022-08-13 21:38:09.929 [http-nio-8001-exec-8] INFO  com.ant.eduService.controller.EduLoginController - Rest to get user information when login
+2022-08-13 21:38:09.957 [http-nio-8001-exec-10] INFO  com.ant.eduService.controller.EduLoginController - Rest to get user information when login
+2022-08-13 21:38:55.150 [http-nio-8001-exec-4] INFO  com.ant.eduService.controller.EduLoginController - Rest to get user information when login
+2022-08-13 21:45:28.731 [http-nio-8001-exec-2] INFO  com.ant.eduService.controller.EduLoginController - Rest to get user information when login
+2022-08-13 21:46:14.901 [http-nio-8001-exec-6] INFO  com.ant.eduService.controller.EduLoginController - Rest to get user information when login
+2022-08-13 21:47:32.207 [http-nio-8001-exec-7] INFO  com.ant.eduService.controller.EduLoginController - Rest to get user information when login
+2022-08-13 21:49:45.275 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-08-13 21:49:45.279 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-08-13 21:49:45.297 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-08-13 21:55:45.890 [main] INFO  com.ant.eduService.EduApplication - Starting EduApplication on 192.168.0.105 with PID 91277 (/Users/Penghao/IdeaProjects/gulicollege_parent/service/service_edu/target/classes started by Penghao in /Users/Penghao/IdeaProjects/gulicollege_parent)
+2022-08-13 21:55:45.894 [main] INFO  com.ant.eduService.EduApplication - The following profiles are active: dev
+2022-08-13 21:55:47.035 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-08-13 21:55:47.038 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2022-08-13 21:55:47.068 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14ms. Found 0 repository interfaces.
+2022-08-13 21:55:47.398 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-13 21:55:47.666 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2022-08-13 21:55:47.672 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2022-08-13 21:55:47.673 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-08-13 21:55:47.673 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2022-08-13 21:55:47.742 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-08-13 21:55:47.744 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1695 ms
+2022-08-13 21:55:47.961 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-08-13 21:55:48.262 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-08-13 21:55:49.152 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-08-13 21:55:49.282 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-08-13 21:55:49.785 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-08-13 21:55:49.797 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-08-13 21:55:49.826 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-08-13 21:55:50.067 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2022-08-13 21:55:50.098 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2022-08-13 21:55:50.101 [main] INFO  com.ant.eduService.EduApplication - Started EduApplication in 5.56 seconds (JVM running for 6.894)
+2022-08-13 22:05:11.899 [http-nio-8001-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-13 22:05:11.901 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-08-13 22:05:11.931 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 30 ms
+2022-08-13 22:05:11.990 [http-nio-8001-exec-1] INFO  com.ant.eduService.controller.EduController - Rest to get teacher by id
+2022-08-13 22:06:30.843 [http-nio-8001-exec-3] INFO  com.ant.eduService.controller.EduController - Rest to get teacher by id
+2022-08-13 22:08:24.587 [http-nio-8001-exec-5] INFO  com.ant.eduService.controller.EduController - Rest to get teacher by id
+2022-08-13 22:09:28.329 [http-nio-8001-exec-7] INFO  com.ant.eduService.controller.EduController - Rest to get teacher by id
+2022-08-13 22:09:39.476 [http-nio-8001-exec-8] INFO  com.ant.eduService.controller.EduLoginController - Rest to get user information when login
+2022-08-13 22:09:42.548 [http-nio-8001-exec-9] INFO  com.ant.eduService.controller.EduController - Rest to get teacher page with condition
+2022-08-13 22:09:49.383 [http-nio-8001-exec-10] INFO  com.ant.eduService.controller.EduController - Rest to get teacher by id
+2022-08-13 22:09:58.121 [http-nio-8001-exec-2] INFO  com.ant.eduService.controller.EduController - Rest to add teacher
+2022-08-13 22:10:51.803 [http-nio-8001-exec-3] INFO  com.ant.eduService.controller.EduController - Rest to get teacher by id
+2022-08-13 22:11:00.906 [http-nio-8001-exec-4] INFO  com.ant.eduService.controller.EduLoginController - Rest to get user information when login
+2022-08-13 22:11:10.909 [http-nio-8001-exec-6] INFO  com.ant.eduService.controller.EduController - Rest to get teacher page with condition
+2022-08-13 22:11:24.333 [http-nio-8001-exec-7] INFO  com.ant.eduService.controller.EduController - Rest to get teacher page with condition
+2022-08-13 22:11:27.786 [http-nio-8001-exec-8] INFO  com.ant.eduService.controller.EduController - Rest to get teacher by id
+2022-08-13 22:14:16.254 [http-nio-8001-exec-1] INFO  com.ant.eduService.controller.EduController - Rest to get teacher page with condition
+2022-08-13 22:14:18.864 [http-nio-8001-exec-2] INFO  com.ant.eduService.controller.EduController - Rest to get teacher by id
+2022-08-13 22:17:38.542 [http-nio-8001-exec-5] INFO  com.ant.eduService.controller.EduLoginController - Rest to get user information when login
+2022-08-13 22:17:41.105 [http-nio-8001-exec-6] INFO  com.ant.eduService.controller.EduController - Rest to get teacher page with condition
+2022-08-13 22:17:42.551 [http-nio-8001-exec-8] INFO  com.ant.eduService.controller.EduController - Rest to get teacher by id
+2022-08-13 22:17:46.732 [http-nio-8001-exec-9] INFO  com.ant.eduService.controller.EduController - Rest to get teacher page with condition
+2022-08-13 22:17:49.270 [http-nio-8001-exec-1] INFO  com.ant.eduService.controller.EduController - Rest to delete teacher by id
+2022-08-13 22:17:49.367 [http-nio-8001-exec-2] INFO  com.ant.eduService.controller.EduController - Rest to get teacher page with condition
+2022-08-13 22:17:51.633 [http-nio-8001-exec-4] INFO  com.ant.eduService.controller.EduController - Rest to get teacher by id
+2022-08-13 22:19:02.994 [http-nio-8001-exec-7] INFO  com.ant.eduService.controller.EduLoginController - Rest to get user information when login
+2022-08-13 22:19:07.970 [http-nio-8001-exec-8] INFO  com.ant.eduService.controller.EduController - Rest to get teacher page with condition
+2022-08-13 22:19:12.831 [http-nio-8001-exec-9] INFO  com.ant.eduService.controller.EduController - Rest to get teacher by id
+2022-08-13 22:20:21.204 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-08-13 22:20:21.207 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-08-13 22:20:21.229 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-08-13 22:21:31.420 [main] INFO  com.ant.eduService.EduApplication - Starting EduApplication on 192.168.0.105 with PID 91604 (/Users/Penghao/IdeaProjects/gulicollege_parent/service/service_edu/target/classes started by Penghao in /Users/Penghao/IdeaProjects/gulicollege_parent)
+2022-08-13 22:21:31.423 [main] INFO  com.ant.eduService.EduApplication - The following profiles are active: dev
+2022-08-13 22:21:32.858 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-08-13 22:21:32.861 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2022-08-13 22:21:32.886 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14ms. Found 0 repository interfaces.
+2022-08-13 22:21:33.188 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-13 22:21:33.437 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2022-08-13 22:21:33.444 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2022-08-13 22:21:33.444 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-08-13 22:21:33.444 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2022-08-13 22:21:33.514 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-08-13 22:21:33.516 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1935 ms
+2022-08-13 22:21:33.724 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-08-13 22:21:34.067 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-08-13 22:21:34.619 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-08-13 22:21:34.741 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-08-13 22:21:35.284 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-08-13 22:21:35.297 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-08-13 22:21:35.324 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-08-13 22:21:35.539 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2022-08-13 22:21:35.573 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2022-08-13 22:21:35.576 [main] INFO  com.ant.eduService.EduApplication - Started EduApplication in 5.468 seconds (JVM running for 6.283)
+2022-08-13 22:21:54.810 [http-nio-8001-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-13 22:21:54.811 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-08-13 22:21:54.826 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 14 ms
+2022-08-13 22:21:54.930 [http-nio-8001-exec-1] INFO  com.ant.eduService.controller.EduController - Rest to get teacher page with condition
+2022-08-13 22:21:57.126 [http-nio-8001-exec-2] INFO  com.ant.eduService.controller.EduController - Rest to get teacher by id
+2022-08-13 22:22:13.372 [http-nio-8001-exec-4] INFO  com.ant.eduService.controller.EduLoginController - Rest to get user information when login
+2022-08-13 22:22:46.337 [http-nio-8001-exec-5] INFO  com.ant.eduService.controller.EduController - Rest to add teacher
+2022-08-13 22:22:47.097 [http-nio-8001-exec-6] INFO  com.ant.eduService.controller.EduController - Rest to get teacher page with condition
+2022-08-13 22:23:18.354 [http-nio-8001-exec-8] INFO  com.ant.eduService.controller.EduController - Rest to get teacher by id
+2022-08-13 22:23:22.727 [http-nio-8001-exec-9] INFO  com.ant.eduService.controller.EduController - Rest to get teacher page with condition
+2022-08-13 22:23:26.000 [http-nio-8001-exec-10] INFO  com.ant.eduService.controller.EduController - Rest to get teacher by id
+2022-08-13 22:24:48.327 [http-nio-8001-exec-6] INFO  com.ant.eduService.controller.EduController - Rest to get teacher by id
+2022-08-13 22:24:49.152 [http-nio-8001-exec-7] INFO  com.ant.eduService.controller.EduLoginController - Rest to get user information when login
+2022-08-13 22:24:51.537 [http-nio-8001-exec-8] INFO  com.ant.eduService.controller.EduController - Rest to get teacher page with condition
+2022-08-13 22:24:53.524 [http-nio-8001-exec-9] INFO  com.ant.eduService.controller.EduController - Rest to get teacher by id
+2022-08-13 22:24:55.935 [http-nio-8001-exec-1] INFO  com.ant.eduService.controller.EduController - Rest to update teacher by id
+2022-08-13 22:24:56.619 [http-nio-8001-exec-2] INFO  com.ant.eduService.controller.EduController - Rest to get teacher page with condition
+2022-08-13 22:26:05.734 [http-nio-8001-exec-4] INFO  com.ant.eduService.controller.EduController - Rest to add teacher
+2022-08-13 22:26:06.404 [http-nio-8001-exec-5] INFO  com.ant.eduService.controller.EduController - Rest to get teacher page with condition
+2022-08-13 22:27:21.551 [http-nio-8001-exec-7] INFO  com.ant.eduService.controller.EduController - Rest to get teacher by id
+2022-08-13 22:42:04.317 [http-nio-8001-exec-9] INFO  com.ant.eduService.controller.EduLoginController - Rest to get user information when login
+2022-08-13 22:42:07.077 [http-nio-8001-exec-10] INFO  com.ant.eduService.controller.EduController - Rest to get teacher page with condition
+2022-08-13 22:42:10.908 [http-nio-8001-exec-1] INFO  com.ant.eduService.controller.EduController - Rest to get teacher page with condition
+2022-08-13 22:42:12.286 [http-nio-8001-exec-2] INFO  com.ant.eduService.controller.EduController - Rest to get teacher by id
+2022-08-13 22:43:25.809 [http-nio-8001-exec-5] INFO  com.ant.eduService.controller.EduController - Rest to add teacher
+2022-08-13 22:43:26.473 [http-nio-8001-exec-6] INFO  com.ant.eduService.controller.EduController - Rest to get teacher page with condition
+2022-08-13 22:43:34.548 [http-nio-8001-exec-7] INFO  com.ant.eduService.controller.EduController - Rest to get teacher by id
+2022-08-13 22:43:58.266 [http-nio-8001-exec-8] INFO  com.ant.eduService.controller.EduController - Rest to update teacher by id
+2022-08-13 22:43:58.945 [http-nio-8001-exec-9] INFO  com.ant.eduService.controller.EduController - Rest to get teacher page with condition
+2022-08-13 22:44:57.549 [http-nio-8001-exec-10] INFO  com.ant.eduService.controller.EduController - Rest to get teacher page with condition
+2022-08-13 22:49:41.740 [http-nio-8001-exec-4] INFO  com.ant.eduService.controller.EduController - Rest to get teacher by id
+2022-08-13 22:50:39.173 [http-nio-8001-exec-5] INFO  com.ant.eduService.controller.EduController - Rest to update teacher by id
+2022-08-13 22:50:39.825 [http-nio-8001-exec-7] INFO  com.ant.eduService.controller.EduController - Rest to get teacher page with condition
+2022-08-13 22:50:54.861 [http-nio-8001-exec-8] INFO  com.ant.eduService.controller.EduController - Rest to get teacher by id

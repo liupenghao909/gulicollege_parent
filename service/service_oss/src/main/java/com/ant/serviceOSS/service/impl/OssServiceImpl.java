@@ -4,11 +4,13 @@ import com.aliyun.oss.OSS;
 import com.aliyun.oss.OSSClientBuilder;
 import com.ant.serviceOSS.config.properties.AliyunOSSProperties;
 import com.ant.serviceOSS.service.OssService;
+import org.joda.time.DateTime;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 
 import java.io.InputStream;
+import java.util.UUID;
 
 @Service
 @EnableConfigurationProperties(AliyunOSSProperties.class)
@@ -35,10 +37,15 @@ public class OssServiceImpl implements OssService {
         OSS ossClient = new OSSClientBuilder().build(endpoint, accessKeyId, accessKeySecret);
 
         String url = null;
-
         try {
             // 上传文件名
             String objectName = file.getOriginalFilename();
+            // 在文件名称里面添加随机唯一的值
+            String uuid = UUID.randomUUID().toString().replaceAll("-", "");
+            objectName = uuid+objectName;
+            //  把文件按照日期进行分类
+            String date = new DateTime().toString("yyyy/MM/dd");
+            objectName = date + "/" + objectName;
             // 文件流
             InputStream inputStream = file.getInputStream();
             // 创建PutObject请求。

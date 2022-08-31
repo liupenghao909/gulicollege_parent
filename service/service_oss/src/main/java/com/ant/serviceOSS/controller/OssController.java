@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
 
 @RestController
-@RequestMapping("/edu/oss/file")
+@RequestMapping("/eduOss/fileoss")
 @CrossOrigin
 public class OssController {
     private final Logger log = LoggerFactory.getLogger(OssController.class);

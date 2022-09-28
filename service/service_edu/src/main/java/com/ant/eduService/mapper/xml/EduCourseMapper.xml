@@ -2,4 +2,44 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.ant.eduService.mapper.EduCourseMapper">
 
+    <select id="getPublishCourseInfo" resultType="com.ant.eduService.entity.vo.PublishCourseInfoVO">
+        SELECT ec.id,
+               ec.title,
+               ec.cover,
+               ec.price as price,
+               ec.lesson_num as lessonNum,
+               et.name as teacherName,
+               es2.title as subjectLevelTwo,
+               es1.title as subjectLevelOne
+        FROM edu_course ec 	    left outer join edu_teacher et on ec.teacher_id = et.id
+                                left outer join edu_subject es2 on ec .subject_id = es2.id
+                                left outer join edu_subject es1 on ec .subject_parent_id = es1.id
+        where ec.id = #{courseId}
+    </select>
+
+
+    <select id="getWebCourseInfo" resultType="com.ant.eduService.entity.vo.frontVO.WebCourseVO">
+        SELECT ec.id,
+               ec.title,
+               ec.cover,
+               ec.price as price,
+               ec.lesson_num as lessonNum,
+               ec.cover as cover,
+               ec.buy_count as buyCount,
+               ec.view_count as viewCount,
+               ecd.description as description,
+               et.id as teacherId,
+               et.name as teacherName,
+               et.intro as intro,
+               et.avatar as avatar,
+               es1.id as subjectLevelOneId,
+               es1.title as subjectLevelOne,
+               es2.id as subjectLevelTwoId,
+               es2.title as subjectLevelTwo
+        FROM edu_course ec 	    left outer join edu_teacher et on ec.teacher_id = et.id
+                                  left outer join edu_course_description ecd on ec.id = ecd.id
+                                  left outer join edu_subject es2 on ec .subject_id = es2.id
+                                  left outer join edu_subject es1 on ec .subject_parent_id = es1.id
+        where ec.id = #{courseId}
+    </select>
 </mapper>

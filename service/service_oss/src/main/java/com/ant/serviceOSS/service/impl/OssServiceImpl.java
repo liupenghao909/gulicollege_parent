@@ -4,6 +4,7 @@ import com.aliyun.oss.OSS;
 import com.aliyun.oss.OSSClientBuilder;
 import com.ant.serviceOSS.config.properties.AliyunOSSProperties;
 import com.ant.serviceOSS.service.OssService;
+import org.apache.commons.lang3.StringUtils;
 import org.joda.time.DateTime;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.stereotype.Service;
@@ -23,7 +24,7 @@ public class OssServiceImpl implements OssService {
     }
 
     @Override
-    public String uploadAvatar(MultipartFile file) {
+    public String uploadAvatar(MultipartFile file, String host) {
         // Endpoint以华东1（杭州）为例，其它Region请按实际情况填写。
         String endpoint = ossProperties.getEndpoint();
         // 阿里云账号AccessKey拥有所有API的访问权限，风险很高。强烈建议您创建并使用RAM用户进行API访问或日常运维，请登录RAM控制台创建RAM用户。
@@ -43,9 +44,15 @@ public class OssServiceImpl implements OssService {
             // 在文件名称里面添加随机唯一的值
             String uuid = UUID.randomUUID().toString().replaceAll("-", "");
             objectName = uuid+objectName;
-            //  把文件按照日期进行分类
-            String date = new DateTime().toString("yyyy/MM/dd");
-            objectName = date + "/" + objectName;
+            // 如果没有指定host，则默认把文件按照日期进行分离
+            if(StringUtils.isBlank(host)) {
+                //  把文件按照日期进行分类
+                String date = new DateTime().toString("yyyy/MM/dd");
+                objectName = date + "/" + objectName;
+            } else {
+                // 否则放到指定的目录下
+                objectName = host + "/" +objectName;
+            }
             // 文件流
             InputStream inputStream = file.getInputStream();
             // 创建PutObject请求。

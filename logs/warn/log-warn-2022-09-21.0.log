@@ -1,0 +1,36 @@
+2022-09-21 00:06:38.984 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=41m6s259ms).
+2022-09-21 00:39:04.667 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=32m25s689ms).
+2022-09-21 02:19:45.426 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h40m40s751ms).
+2022-09-21 03:59:15.097 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h39m29s681ms).
+2022-09-21 04:47:46.996 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=48m31s897ms).
+2022-09-21 04:53:00.104 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s109ms).
+2022-09-21 05:14:53.600 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=21m53s494ms).
+2022-09-21 05:49:39.001 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=34m45s403ms).
+2022-09-21 05:54:52.004 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s4ms).
+2022-09-21 06:27:52.605 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=33m600ms).
+2022-09-21 07:16:31.071 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=48m38s466ms).
+2022-09-21 07:21:44.259 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s189ms).
+2022-09-21 08:44:07.005 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h22m22s746ms).
+2022-09-21 09:03:40.549 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=19m33s543ms).
+2022-09-21 09:29:06.608 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=24m56s40ms).
+2022-09-21 14:37:55.456 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-09-21 14:37:55.464 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-09-21 16:42:41.548 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-09-21 16:42:41.558 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-09-21 20:42:05.131 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-09-21 20:42:05.135 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-09-21 21:02:49.419 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m15s154ms).
+2022-09-21 21:33:11.426 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=30m22s9ms).
+2022-09-21 21:42:39.043 [http-nio-8001-exec-8] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@3021cd2c (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2022-09-21 21:56:37.661 [http-nio-8001-exec-6] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@7d4657b5 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2022-09-21 21:56:37.661 [http-nio-8001-exec-2] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@af72188 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2022-09-21 21:56:39.720 [http-nio-8001-exec-5] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@97fc971 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2022-09-21 21:56:39.720 [http-nio-8001-exec-9] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@77558f42 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2022-09-21 21:56:39.971 [http-nio-8001-exec-8] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@c30bdc2 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2022-09-21 21:56:39.971 [http-nio-8001-exec-7] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@26532686 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2022-09-21 21:56:42.690 [http-nio-8001-exec-6] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@30fd9845 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2022-09-21 21:56:42.690 [http-nio-8001-exec-2] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@78a242d6 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2022-09-21 21:56:44.743 [http-nio-8001-exec-9] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@52c3099e (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2022-09-21 21:56:44.742 [http-nio-8001-exec-5] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@6d17f4d5 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2022-09-21 22:48:33.643 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-09-21 22:48:33.647 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.

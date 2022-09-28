@@ -10,7 +10,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/eduService/user")
-@CrossOrigin
+
 public class EduLoginController {
     private final Logger log = LoggerFactory.getLogger(EduLoginController.class);
 

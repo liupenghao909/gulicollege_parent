@@ -4,15 +4,12 @@ import com.ant.commonutils.R;
 import com.ant.serviceOSS.service.OssService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.web.bind.annotation.CrossOrigin;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
 @RestController
 @RequestMapping("/eduOss/fileoss")
-@CrossOrigin
+
 public class OssController {
     private final Logger log = LoggerFactory.getLogger(OssController.class);
 
@@ -23,10 +20,10 @@ public class OssController {
     }
 
     @PostMapping("/upload/avatar")
-    public R uploadTeacherAvatar(MultipartFile file){
+    public R uploadTeacherAvatar(MultipartFile file, @RequestParam(required = false,name = "host") String host){
         log.info("Rest to upload teacher avatar");
 
-        String url = ossService.uploadAvatar(file);
+        String url = ossService.uploadAvatar(file, host);
         return R.ok().data("url",url);
     }
 

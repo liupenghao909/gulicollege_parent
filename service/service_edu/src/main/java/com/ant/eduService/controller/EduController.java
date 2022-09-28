@@ -31,7 +31,7 @@ import java.util.List;
 @Api(value = "讲师管理")
 @RestController
 @RequestMapping("/eduService/teacher")
-@CrossOrigin
+
 public class EduController {
     private final Logger log = LoggerFactory.getLogger(EduController.class);
 

@@ -26,7 +26,7 @@ import java.util.List;
  */
 @RestController
 @RequestMapping("/eduService/eduSubject")
-@CrossOrigin  // 跨域
+  // 跨域
 public class EduSubjectController {
 
     private final Logger log = LoggerFactory.getLogger(EduSubjectController.class);
@@ -37,10 +37,6 @@ public class EduSubjectController {
         this.eduSubjectService = eduSubjectService;
     }
 
-    @GetMapping("/1")
-    public String get(){
-        return "hello";
-    }
 
     @PostMapping("/save")
     public R saveSubject(MultipartFile file){
